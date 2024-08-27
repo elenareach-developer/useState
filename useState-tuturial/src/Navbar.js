@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="topnav">
       <ul>
         <li>
           <Link to='/'>Home</Link>

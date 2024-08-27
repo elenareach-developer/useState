@@ -2,9 +2,8 @@ import Navbar from "./Navbar";
 
 const Contact = () => {
   return (
-    <div>
-      <Navbar />
-      <h1>Contact</h1>
+    <div className="box">
+      <div>Contact</div>
     </div>
   );
 };

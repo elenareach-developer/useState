@@ -10,16 +10,43 @@ nav {
   color: #fff;
   padding: 10px;
 }
-
-nav li {
-  display: inline;
+nav li{
+  list-style-type:none
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-nav a {
-  color: #fff;
-  margin: 0 10px;
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
-nav a:hover {
-  text-decoration: underline;
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Left and right column */
+
+
