@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <div className="main">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/helloHooks' element={<HelloHooks/>} />
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Quiz2' element={<Quiz2/>} />
         <Route path='/Quiz3' element={<Quiz3/>} />
       </Routes>
+      </div>
     </div>
   );
 }

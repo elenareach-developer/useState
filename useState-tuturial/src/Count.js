@@ -17,10 +17,10 @@ const Count = () => {
     <div className="box">
         <div className="boxMx">
             <div> <h1>Count</h1></div>
-            <div>
-                <button  onClick={decrimentCount}>-</button>
-                <h1>{count}</h1>
-                <button onClick={incrementCount}>+</button>
+            <div className="counter">
+                <button  className="item" onClick={decrimentCount}>-</button>
+                <h1 className="item">{count}</h1>
+                <button className="item" onClick={incrementCount}>+</button>
             </div>
         </div>
     </div>

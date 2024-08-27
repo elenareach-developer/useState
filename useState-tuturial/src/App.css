@@ -34,30 +34,54 @@ nav li{
   background-color: #ddd;
   color: black;
 }
-.box {
+.main{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.box div {
-  margin: 20px;
+.box {
   width: 300px;
-  height: 300px;
-  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1.5rem 1.5rem 2rem;
+  background-color: #ddd;
+
 }
 
 .boxMx{
-  display: flex; 
-  justify-content: space-between; 
-  flex-wrap: wrap;   
+  background: var(--cp-color-14);
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem 2rem;
 }
-
 .blue{
-  background-color:#176e9e
+  background-color:#176e9e;
+  color:aliceblue;
+  margin: 2rem 0;
 }
 .red{
   background-color: #833434;
+  color:aliceblue;
+  margin: 2rem 0;
+}
+.counter {
+  width: 100px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  justify-items: stretch;
+}
+.counter item{
+  width:100%;
+  padding: 1.5rem 1.5rem 2rem;
+  margin: 2rem;
 }
 /* Left and right column */
 
